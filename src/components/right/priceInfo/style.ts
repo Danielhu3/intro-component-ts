@@ -7,4 +7,5 @@ export const PriceInfo = styled.span`
     justify-content: center;
     color: hsl(246, 25%, 77%);
     text-align: center;
+    box-shadow:0 2px 2px 2px rgb(0 0 0 / 20%)
 `
