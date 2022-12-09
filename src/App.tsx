@@ -7,6 +7,8 @@ import  Input  from './components/right/input/';
 import  PriceInfo  from './components/right/priceInfo/';
 import  Right  from './components/right/';
 import GlobalStyles from './styles/global'
+import  Button  from './components/right/button/';
+import  Terms  from './components/right/terms/';
 
 function App() {
   return (
@@ -24,21 +26,13 @@ function App() {
           <Input type ='text' placeholder='Last Name'/>
           <Input type ='email' placeholder='Email Address'/>
           <Input type ='text' placeholder='Password'/>
+          <Button />
+          <Terms />
         </Form>
       </Right>
     </div>
   );
 }
 
-/* 
-
-
-  
-
-  
-
-
-  By clicking the button, you are agreeing to our Terms and Services
-*/
 
 export default App;

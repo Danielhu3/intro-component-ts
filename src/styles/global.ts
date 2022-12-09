@@ -30,5 +30,8 @@ export default createGlobalStyle`
         background-size: cover;
 
         align-items: center;
+
+        gap: 2rem;
+        padding: 0 10rem;
     }
 `

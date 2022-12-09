@@ -5,4 +5,5 @@ export const PriceInfo = styled.span`
     border-radius: 1rem;
     display: flex;
     justify-content: center;
+    color: hsl(246, 25%, 77%);
 `
