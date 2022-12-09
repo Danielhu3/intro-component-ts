@@ -6,4 +6,5 @@ export const PriceInfo = styled.span`
     display: flex;
     justify-content: center;
     color: hsl(246, 25%, 77%);
+    text-align: center;
 `

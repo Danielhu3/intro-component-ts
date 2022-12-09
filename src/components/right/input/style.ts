@@ -4,7 +4,7 @@ export const Input = styled.input`
     padding-left:3.2rem;
     border: solid 1px #d3d3d3;
     border-radius: 0.5rem;
-
+    
     &:focus{
         outline: solid 1px hsl(248, 32%, 49%);
     }
