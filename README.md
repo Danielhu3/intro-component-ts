@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Danielhu3/intro-component-ts)
-- Live Site URL: [Netlify]((https://unique-fudge-6d90a2.netlify.app/)
+- Live Site URL: [Netlify](https://unique-fudge-6d90a2.netlify.app/)
 
 ## My process
 
