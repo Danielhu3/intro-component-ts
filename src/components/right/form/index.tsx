@@ -48,4 +48,3 @@ const Index = () => {
 
 export default Index
 
-//onSubmit={handleSubmit(onSubmit)}

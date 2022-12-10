@@ -1,5 +1,6 @@
 import React from 'react'
 import { UseFormRegister, FieldValues  } from 'react-hook-form';
+import  ErrorSpan  from '../errorSpan/';
 import { Input } from './style';
 
 
@@ -13,14 +14,10 @@ type Props = {
 
 
 const index = ({type, placeholder, register, field, error}:Props) => {
-  if(error){
-    console.log(error)
-    console.log(typeof(error))
-  }
   return (
     <>
-    <Input type={type} {...register(field)} placeholder={placeholder}/>
-    {error ? <span>{error.message}</span> : null}
+    <Input type={type} {...register(field)} placeholder={field === 'email' && error ? 'email@example.com' :placeholder} error={error}/>
+    {error ? <ErrorSpan message={error.message}/> : null}
     </>
   )
 }
