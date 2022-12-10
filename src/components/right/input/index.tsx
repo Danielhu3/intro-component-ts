@@ -8,12 +8,20 @@ type Props = {
     placeholder:string;
     register: UseFormRegister<FieldValues>
     field:string
+    error?: any;
 }
 
 
-const index = ({type, placeholder, register, field}:Props) => {
+const index = ({type, placeholder, register, field, error}:Props) => {
+  if(error){
+    console.log(error)
+    console.log(typeof(error))
+  }
   return (
-    <Input type={type} {...register(field)}/>
+    <>
+    <Input type={type} {...register(field)} placeholder={placeholder}/>
+    {error ? <span>{error.message}</span> : null}
+    </>
   )
 }
 
