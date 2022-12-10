@@ -9,4 +9,7 @@ export const Form = styled.form`
     border-radius: 0.5rem;
 
     box-shadow: 0 5px 2px 2px rgb(0 0 0 / 20%);
+
+    @media screen and (max-width:766px){
+    }
 `

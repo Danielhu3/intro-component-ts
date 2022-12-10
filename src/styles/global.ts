@@ -20,7 +20,7 @@ export default createGlobalStyle`
     }
 
     .App{
-        height: 100vh;
+        min-height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'left right';
@@ -33,5 +33,17 @@ export default createGlobalStyle`
 
         gap: 2rem;
         padding: 0 10rem;
+    }
+
+    @media screen and (max-width:766px){
+        .App{
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: none;
+        grid-template-areas: 'left' 
+                             'right';
+        gap: 0rem;
+        padding: 5rem 10rem;
+            
+        }
     }
 `
