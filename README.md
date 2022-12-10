@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Danielhu3/intro-component-ts)
-- Live Site URL: [Netlify]([https://your-live-site-url.com](https://unique-fudge-6d90a2.netlify.app/))
+- Live Site URL: [Netlify]((https://unique-fudge-6d90a2.netlify.app/)
 
 ## My process
 
@@ -82,5 +82,5 @@ I learned how to use react-hook-form with TypeScript, and how to use yup, yup is
 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Danielhu3)
+- Frontend Mentor - [@Danielhu3](https://www.frontendmentor.io/profile/Danielhu3)
 
