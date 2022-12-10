@@ -41,8 +41,8 @@ export default createGlobalStyle`
         grid-template-columns: none;
         grid-template-areas: 'left' 
                              'right';
-        gap: 0rem;
-        padding: 5rem 10rem;
+        gap: 2rem;
+        padding: 4rem 10rem;
             
         }
     }
